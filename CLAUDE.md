@@ -2,14 +2,14 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-A small Express REST API for users (in-memory data), used as the starter repo for the Claude Code course.
+A small Express REST API for users (in-memory data)
 
 ## Commands
 
 - `npm run dev`: start the API on http://localhost:3000 and restart it when files change (`node --watch`)
 - `npm test`: run all tests (Node's built-in test runner, `node --test`)
 - `node --test --test-name-pattern="404"`: run only the tests whose names match the pattern
-- `npm run lint`: run ESLint; CI fails on lint errors
+- `npm run lint`: run ESLint;
 
 ## Architecture
 
