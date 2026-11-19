@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this reset repository.
 
 A small Express REST API for users (in-memory data), used as the starter repo for the Claude Code course.
 
