@@ -11,8 +11,6 @@ A small Express REST API for users (in-memory data), used as the starter repo fo
 - `node --test --test-name-pattern="404"`: run only the tests whose names match the pattern
 - `npm run lint`: run ESLint; CI fails on lint errors
 
-CI (`.github/workflows/ci.yml`) runs `npm install`, `npm run lint`, and `npm test` on Node 22 for every push and PR.
-
 ## Architecture
 
 - `server.js` builds the Express app, mounts one router per resource (`/users` → `routes/users.js`, `/health` → `routes/health.js`), and exports `app`. It only calls `listen()` when run directly, so tests import `app` without opening a port.
